@@ -1,0 +1,54 @@
+.card {
+    width: 20rem;
+    height: 32rem;
+    border-radius: .5rem;
+    box-shadow: -1px 6px 20px 2px rgba(233, 229, 229, 0.75);
+    border: none;
+    transition: all .4s ease-out;
+}
+
+.card:hover {
+    box-shadow: -1px 6px 20px 4px rgba(168, 175, 175, 0.75);
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.card img {
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.card-title {
+    font-family: "Unbounded", sans-serif;
+    margin-left: 1.2rem;
+    margin-top: .7rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #f45b23;
+}
+
+.card-text {
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #0c4b65;
+    margin-top: 10px;
+}
+
+.requirements span,
+.bi {
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: "Poppins", cursive;
+}
+
+.requirements .bi {
+    color: rgb(12, 75, 101);
+    font-size: 21px;
+}
+
+.addBtn {
+    font-family: "Poppins";
+    background-color: rgb(5, 73, 103) !important;
+    margin-top: 20px;
+}

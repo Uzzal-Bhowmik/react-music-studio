@@ -1,0 +1,50 @@
+[
+    {
+        "id": "#1",
+        "name": "Guitar Classes",
+        "desc": "Starting your guitar journey? A free step-by-step beginner guitar lesson series that will teach you how to play guitar from scratch.",
+        "img": "/images/guitar.jpg",
+        "level": "Beginner",
+        "time": "3"
+    },
+    {
+        "id": "#2",
+        "name": "Violin Classes",
+        "desc": "Best Violin Courses for all ages at Music Studio.Learn how to play violin and master classical violin basics through violin video lessons.",
+        "img": "/images/violin.jpg",
+        "level": "Intermediate",
+        "time": "5"
+    },
+    {
+        "id": "#3",
+        "name": "Piano Classes",
+        "desc": "Find your piano potential with Music Studio's award-winning piano lessons.Start now to learn to play the piano or improve your technique.",
+        "img": "/images/piano.jpg",
+        "level": "Beginner",
+        "time": "4"
+    },
+    {
+        "id": "#4",
+        "name": "Drum Classes",
+        "desc": "Are you interested in learning drums? Master the drums with excellent lessons at the Music Studio. Online and in-person classes available now. Join to master the techniques.",
+        "img": "/images/drum.jpg",
+        "level": "Intermediate",
+        "time": "5"
+    },
+    {
+        "id": "#5",
+        "name": "Vocal Classes",
+        "desc": "Learn various vocal exercises and singing techniques to understand music and become a better singer, regardless of what musical styles you prefer.",
+        "img": "/images/vocal.jpg",
+        "level": "Advanced",
+        "time": "10"
+    },
+    {
+        "id": "#6",
+        "name": "Jazz Classes",
+        "desc": "This beginner focused Theatre Jazz class begins with a set warm-up followed by progressions and technique exercises. Join now and master the skills.",
+        "img": "/images/jazz.jpg",
+        "level": "Beginner",
+        "time": "3"
+    }
+]

@@ -1,0 +1,14 @@
+.classes>p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Pacifico", cursive;
+    color: rgb(251, 77, 82);
+}
+
+.classes h1 {
+    font-family: "Unbounded", cursive;
+    font-size: 30px;
+    color: rgb(12, 75, 101);
+    font-weight: bolder;
+}

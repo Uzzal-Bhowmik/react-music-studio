@@ -1,0 +1,32 @@
+.practice-details {
+    font-family: "Poppins";
+    box-shadow: 2px 2px 5px lightgrey;
+    border-radius: 1rem;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.breaks {
+    background: rgb(231, 236, 248);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.break-btn {
+    outline: 0;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: white;
+    font-weight: bold;
+    transition: all .2s ease;
+}
+
+.break-btn:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all .2s ease-out;
+}

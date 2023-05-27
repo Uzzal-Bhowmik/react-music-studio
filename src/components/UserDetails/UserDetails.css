@@ -1,0 +1,32 @@
+.user-details {
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px lightgrey;
+    height: 200px;
+    width: 350px;
+}
+
+.user {
+    margin-left: 1rem;
+}
+
+.user img {
+    width: 17%;
+    margin: 0;
+}
+
+.user-name {
+    font-family: "Poppins", sans-serif;
+    margin-top: 29px;
+}
+
+.user-name h5 {
+    font-family: "Unbounded", sans-serif;
+    color: rgb(12, 75, 101);
+    font-size: 1.2rem;
+}
+
+.user-level {
+    background-color: rgba(215, 223, 244, 0.608);
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px !important;
+}

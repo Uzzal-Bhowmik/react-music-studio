@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+}
+
+.logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tagline {
+    position: relative;
+}
+
+.tagline small {
+    position: absolute;
+    left: 2%;
+    right: 0;
+    bottom: -17px;
+    letter-spacing: 5px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+}
