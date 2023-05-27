@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./PracticeDetails.css";
 
-const PracticeDetails = () => {
+const PracticeDetails = ({learningTime}) => {
 
   // break times
   const [breakTime, setBreakTime] = useState(0);
@@ -9,9 +9,6 @@ const PracticeDetails = () => {
   const breakTimes = [10, 20, 30, 40, 50];
 
   const handleBreak = (time) => setBreakTime(time);
-
-
-  // learning time
 
 
   return (
@@ -39,12 +36,12 @@ const PracticeDetails = () => {
 
           <div className="total-time d-flex justify-content-between align-items-center px-3 pt-2 pb-1 mt-4">
             <h6 className="fw-bold">Learning Time</h6>
-            <h6 className="text-muted">{0} hours</h6>
+            <h6 className="text-muted">{learningTime} hours</h6>
           </div>
 
           <div className="total-time d-flex justify-content-between align-items-center px-3 pt-2 pb-1 mt-2">
             <h6 className="fw-bold">Break Time</h6>
-            <h6 className="text-muted">{breakTime} hours</h6>
+            <h6 className="text-muted">{breakTime} minutes</h6>
           </div>
         </div>
 

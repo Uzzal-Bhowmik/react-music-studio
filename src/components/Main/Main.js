@@ -1,21 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Main.css";
 import Classes from "../Classes/Classes";
 import UserDetails from "../UserDetails/UserDetails";
 import PracticeDetails from "../PracticeDetails/PracticeDetails";
 
 const Main = () => {
+
+  // Learning time update
+  const [learningTime, setLearningTime] = useState(0);
+
+  const handleLearningTime = (time) => {
+    const newTime = learningTime + time;
+    setLearningTime(newTime);
+  }
+
+
   return (
     <div className="row g-0 p-3 my-5 ">
+
       {/* Classes Details */}
       <div className="col-12 col-md-9">
-        <Classes></Classes>
+        <Classes 
+          handleLearningTime={handleLearningTime}
+        ></Classes>
       </div>
 
       {/* User details and Practice Details */}
       <div className="col-12 col-md-3">
         <UserDetails></UserDetails>
-        <PracticeDetails></PracticeDetails>
+        <PracticeDetails 
+          learningTime={learningTime}
+        
+        ></PracticeDetails>
       </div>
     </div>
   );

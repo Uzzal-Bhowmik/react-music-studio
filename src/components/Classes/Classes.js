@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Classes.css";
 import Class from "../Class/Class";
 
-const Classes = () => {
+const Classes = ({handleLearningTime}) => {
 
   // Loading classes data
   const [classes, setClasses] = useState([]);
@@ -23,7 +23,7 @@ const Classes = () => {
           classes.map(classObj => <Class
             key={classObj.id}
             classObj={classObj}
-
+            handleLearningTime={handleLearningTime}
           ></Class>)
         }
       </div>

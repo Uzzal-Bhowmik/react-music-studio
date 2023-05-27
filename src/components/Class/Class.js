@@ -1,7 +1,7 @@
 import React from "react";
 import "./Class.css";
 
-const Class = ({classObj}) => {
+const Class = ({classObj, handleLearningTime}) => {
 
   const {img, name, desc, level, time} = classObj;
 
@@ -26,7 +26,7 @@ const Class = ({classObj}) => {
             </div>
           </div>
 
-          <button className="btn btn-primary w-100 fw-bold addBtn">Add To List</button>
+          <button className="btn btn-primary w-100 fw-bold addBtn" onClick={() => handleLearningTime(parseInt(time))}>Add To List</button>
         </div>
 
       </div>
