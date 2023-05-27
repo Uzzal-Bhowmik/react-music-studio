@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./PracticeDetails.css";
 import addToLS from "../../utilities/addToLS";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const PracticeDetails = ({learningTime}) => {
 
@@ -27,6 +29,13 @@ const PracticeDetails = ({learningTime}) => {
       setBreakTime(breakTime);
     }
   }, [])
+
+
+  // Toast notification
+  const displayToast = () => {
+    toast(`Congratulations! You've Completed Your Classes ❤️`);
+    console.log("hello");
+  }
 
 
   return (
@@ -65,7 +74,8 @@ const PracticeDetails = ({learningTime}) => {
 
         
         {/* Activity Completed Button */}
-        <button className="btn btn-primary mt-5 w-100 fw-bold py-2 rounded-3">Activity Completed</button>
+        <button className="btn btn-primary mt-5 w-100 fw-bold py-2 rounded-3" onClick={displayToast}>Activity Completed</button>
+        <ToastContainer></ToastContainer>
 
 
     </div>

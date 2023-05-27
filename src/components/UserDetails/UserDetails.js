@@ -26,7 +26,7 @@ const UserDetails = () => {
           </div>
           <div>
             <h5 className="mb-0 fw-bold">Online</h5>
-            <p className="text-muted fw-bold">Preferred</p>
+            <p className="text-muted fw-bold">Preference</p>
           </div>
         </div>
       </div>
