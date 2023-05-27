@@ -34,7 +34,6 @@ const PracticeDetails = ({learningTime}) => {
   // Toast notification
   const displayToast = () => {
     toast(`Congratulations! You've Completed Your Classes ❤️`);
-    console.log("hello");
   }
 
 

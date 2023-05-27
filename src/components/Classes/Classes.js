@@ -18,7 +18,7 @@ const Classes = ({handleLearningTime}) => {
       <p>Our Classes</p>
       <h1>Most Popular Classes</h1>
 
-      <div className="class-container row gy-5 me-2 my-2">
+      <div className="class-container row gy-5 me-2 my-2 mx-auto">
         {
           classes.map(classObj => <Class
             key={classObj.id}
