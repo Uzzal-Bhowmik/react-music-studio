@@ -56,7 +56,7 @@ const PracticeDetails = ({learningTime}) => {
       </div>
 
         
-        {/* Learning Details */}
+        {/* Learning Time Details */}
         <div className="mt-5">
           <h4 className="fw-bold">Learning Details</h4>
 
