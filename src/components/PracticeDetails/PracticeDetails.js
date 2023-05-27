@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./PracticeDetails.css";
+import addToLS from "../../utilities/addToLS";
 
 const PracticeDetails = ({learningTime}) => {
 
@@ -8,7 +9,24 @@ const PracticeDetails = ({learningTime}) => {
 
   const breakTimes = [10, 20, 30, 40, 50];
 
-  const handleBreak = (time) => setBreakTime(time);
+  const handleBreak = (time) => {
+    setBreakTime(time); // updates break time 
+
+    addToLS(time); // sets break time to local storage
+  }
+
+  // updating break time on reload
+  useEffect(()=> {
+    let breakTime = 0;
+    let storedBreakTime = localStorage.getItem("break-time");
+
+    if(storedBreakTime) {
+      setBreakTime(storedBreakTime);
+    }
+    else {
+      setBreakTime(breakTime);
+    }
+  }, [])
 
 
   return (
