@@ -26,7 +26,7 @@ const Main = () => {
       </div>
 
       {/* User details and Practice Details */}
-      <div className="col-12 col-md-3 mt-5 mt-md-0">
+      <div className="col-12 col-md-3 mt-5 mt-md-0 animate__animated animate__fadeInRight animate__slow">
         <UserDetails></UserDetails>
         <PracticeDetails 
           learningTime={learningTime}

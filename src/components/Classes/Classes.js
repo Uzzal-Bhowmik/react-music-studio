@@ -14,7 +14,7 @@ const Classes = ({handleLearningTime}) => {
 
 
   return (
-    <div className="classes">
+    <div className="classes animate__animated animate__fadeInLeft animate__slow">
       <p>Our Classes</p>
       <h1>Most Popular Classes</h1>
 
